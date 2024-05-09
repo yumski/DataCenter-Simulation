@@ -1,0 +1,12 @@
+{
+    "profiles": [
+        {
+            "src_container":"src1",
+            "dst_container":"dst1",
+            "dst_ip":"143.12.131.92",
+            "flows" : [
+                { "start_time":0, "end_time":30, "num_flows":8 }
+            ]
+        }
+    ]
+}

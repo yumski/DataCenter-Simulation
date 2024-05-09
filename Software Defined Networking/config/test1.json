@@ -1,0 +1,26 @@
+[
+  {
+    "client": "h2",
+    "server": "h1",
+    "test": [
+      { "begin": "0", "end": "5", "bandwidth": "50M" },
+      { "begin": "5", "end": "10", "bandwidth": "60M" },
+      { "begin": "10", "end": "15", "bandwidth": "80M" },
+      { "begin": "15", "end": "18", "bandwidth": "100M" }
+    ]
+  },
+  {
+    "client": "h3",
+    "server": "h1",
+    "test": [
+      { "begin": "5", "end": "15", "bandwidth": "80M" }
+    ]
+  },
+  {
+    "client": "h4",
+    "server": "h1",
+    "test": [
+      { "begin": "5", "end": "15", "bandwidth": "60M" }
+    ]
+  }
+]

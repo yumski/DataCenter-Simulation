@@ -1,0 +1,78 @@
+{
+  "hosts": ["h1", "h2", "h3", "h4","h5", "h6"],
+  "switches": ["s1", "s2", "s3", "s4", "s5"],
+  "links": [
+    {
+      "input_port": "h1-0",
+      "output_port": "s1-1",
+      "bandwidth": 100,
+      "latency": 2
+    },
+    {
+      "input_port": "h2-0",
+      "output_port": "s1-2",
+      "bandwidth": 100,
+      "latency": 2
+    },
+    {
+      "input_port": "h3-0",
+      "output_port": "s2-1",
+      "bandwidth": 100,
+      "latency": 2
+    },
+    {
+      "input_port": "h4-0",
+      "output_port": "s2-2",
+      "bandwidth": 100,
+      "latency": 2
+    },
+    {
+      "input_port": "h5-0",
+      "output_port": "s3-1",
+      "bandwidth": 100,
+      "latency": 2
+    },
+    {
+      "input_port": "h6-0",
+      "output_port": "s3-2",
+      "bandwidth": 100,
+      "latency": 2
+    },
+    {
+      "input_port": "s1-3",
+      "output_port": "s4-1",
+      "bandwidth": 35,
+      "latency": 7
+    },
+    {
+      "input_port": "s1-4",
+      "output_port": "s5-1",
+      "bandwidth": 35,
+      "latency": 7
+    },
+    {
+      "input_port": "s2-3",
+      "output_port": "s4-2",
+      "bandwidth": 45,
+      "latency": 10
+    },
+    {
+      "input_port": "s2-4",
+      "output_port": "s5-2",
+      "bandwidth": 55,
+      "latency": 6
+    },
+    {
+      "input_port": "s3-3",
+      "output_port": "s4-3",
+      "bandwidth": 70,
+      "latency": 9
+    },
+    {
+      "input_port": "s3-4",
+      "output_port": "s5-3",
+      "bandwidth": 75,
+      "latency": 2
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "monitoring": true,
+    "redistribute": false,
+    "path_selection_strategy": "widest_path",
+    "S1": 5,
+    "T1": 3,
+    "T2": 20
+}
